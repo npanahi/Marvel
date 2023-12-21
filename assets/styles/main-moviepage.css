@@ -1,0 +1,183 @@
+/* ///////////// Hero /////////// */
+.hero {
+  width: 100%;
+  height: 100vh;
+  max-height: 400px;
+}
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  max-height: 400px;
+  background-image: url(../photos/movie-page/bg.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero:after {
+  content: "";
+  position: absolute;
+  bottom: -30;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  transform: rotate(-1deg);
+  clip-path: polygon(0 0, 0 100%, 100% 92%, 100% 0);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.hero .hero-content ul {
+  height: 100%;
+  color: #fff;
+  font-size: 15px;
+}
+.hero .hero-content ul li .img-container {
+  width: 450px;
+  height: 250px;
+}
+.hero-content li:last-child .btn.btn-red {
+  transition: background-color 0.2s;
+}
+.hero-content li:last-child:hover .btn.btn-red {
+  background-color: #9e0113;
+}
+
+.social-media {
+  font-size: 18px;
+  width: 100%;
+  color: #767676;
+  right: 170px;
+  bottom: 5px;
+  position: absolute;
+}
+.social-media i {
+  transition: color 0.4s;
+}
+.social-media i:hover {
+  color: #151515;
+}
+/* ///////////// final-trailer /////////// */
+.final-trailer .icon-logo {
+  width: 40px;
+  height: 40px;
+}
+.final-trailer .trailer-bg {
+  width: 100%;
+  height: 650px;
+}
+.final-trailer .trailer-bg:before {
+  background-image: url(../photos/movie-page/maxresdefault.webp);
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  z-index: -1;
+}
+.final-trailer .trailer-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background: linear-gradient(
+    180deg,
+    #000 2px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    #000 2px
+  ); */
+  /* background: repeating-linear-gradient(
+    180deg,
+    #000 2px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    transparent 650px,
+    #000 2px
+  ); */
+  /* background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    transparent,
+    rgba(0, 0, 0, 0.8)
+  ); */
+  /* background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 20%,
+    transparent 20%,
+    transparent 80%,
+    rgba(0, 0, 0, 0.8) 80%
+  ); */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 1%,
+    rgba(0, 0, 0, 0.3) 5%,
+    transparent 30%,
+    transparent 70%,
+    rgba(0, 0, 0, 0.3) 95%,
+    rgba(0, 0, 0, 0.7) 99%
+  );
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.final-trailer .trailer-bg .youtube-icon {
+  position: absolute;
+  color: red;
+  font-size: 50px;
+  left: 50%;
+  bottom: 50%;
+}
+.final-trailer .trailer-bg .top-list {
+  /* position: absolute;
+  top: 10px;
+  left: 10px; */
+  color: #fff;
+}
+/* .final-trailer .trailer-bg .top-list li img {
+  border-radius: 50%;
+} */
+.final-trailer .trailer-bg .top-list .icon {
+  font-size: 22px;
+}
+.final-trailer .trailer-bg .top-list .text {
+  font-size: 12px;
+}
+.final-trailer .trailer-bg .bottom-list {
+  position: absolute;
+  bottom: 20;
+  color: #fff;
+  left: 20;
+}
+/* //////////////latest-news/////////////// */
+.latest-news {
+  background-color: #151515;
+  bottom: 1px solid #545454;
+}
+.latest-news ul li .content {
+  font-size: 14px;
+}
+.latest-news ul li .content span {
+  font-weight: 500;
+}
+.latest-news ul li .content a:hover {
+  color: #e6252a;
+}
+.latest-news .btn {
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* //////////////overview/////////////// */

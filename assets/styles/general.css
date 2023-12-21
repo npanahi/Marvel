@@ -86,6 +86,21 @@ img {
 .pointer {
   cursor: pointer;
 }
+.vertical-middle {
+  vertical-align: middle;
+}
+.border-circle {
+  border-radius: 50%;
+}
+.c-f {
+  color: #fff;
+}
+.c-0 {
+  color: #000;
+}
+.c-g {
+  color: #767676;
+}
 /*//////////////// border ////////////////// */
 
 .border {
@@ -99,7 +114,7 @@ img {
   border-top: 1px solid #393939;
   border-bottom: 1px solid #393939;
 }
-/*/ ////////////// flex //////////////// */
+/*/ ////////////// flex ////////////////// */
 .align-center {
   align-items: center;
 }
@@ -227,12 +242,20 @@ img {
 .p-10 {
   padding: 10px;
 }
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
 .p-25 {
   padding: 25px;
 }
 /* ************* */
 /* padding-y  */
-
+.p-y-10 {
+  padding: 10px 0;
+}
 .p-y-20 {
   padding: 20px 0;
 }
@@ -244,6 +267,9 @@ img {
 }
 .p-y-160 {
   padding: 160px 0;
+}
+.p-y-1050 {
+  padding: 10px 0 50px 0;
 }
 /* ************* */
 /* padding-t  */
@@ -283,6 +309,7 @@ img {
 .p-10-25 {
   padding: 10px 25px;
 }
+
 /* ************* */
 /* margin  */
 /* ************* */
@@ -305,6 +332,12 @@ img {
 }
 .m-t-20 {
   margin-top: 20px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-t-40 {
+  margin-top: 40px;
 }
 .m-t-50 {
   margin-top: 50px;
@@ -366,7 +399,7 @@ img {
   display: inline-block;
 }
 .btn.btn-red {
-  background-color: red;
+  background-color: #e6252a;
   padding: 10px 25px;
   font-weight: 600;
 }
