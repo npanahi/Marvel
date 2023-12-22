@@ -61,12 +61,13 @@
 .social-media i:hover {
   color: #151515;
 }
-/* ///////////// final-trailer /////////// */
-.final-trailer .icon-logo {
+/* ////////// final-trailer //////////*/
+/* ****** trailer-common-codes ****** */
+.icon-logo {
   width: 40px;
   height: 40px;
 }
-.final-trailer .trailer-bg {
+.trailer-bg {
   width: 100%;
   height: 650px;
 }
@@ -81,46 +82,11 @@
   background-position: center center;
   z-index: -1;
 }
-.final-trailer .trailer-bg:after {
+.trailer-bg:after {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  /* background: linear-gradient(
-    180deg,
-    #000 2px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    #000 2px
-  ); */
-  /* background: repeating-linear-gradient(
-    180deg,
-    #000 2px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    transparent 650px,
-    #000 2px
-  ); */
-  /* background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.8),
-    transparent,
-    rgba(0, 0, 0, 0.8)
-  ); */
-  /* background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.8) 20%,
-    transparent 20%,
-    transparent 80%,
-    rgba(0, 0, 0, 0.8) 80%
-  ); */
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.7) 1%,
@@ -134,34 +100,30 @@
   height: 100%;
   z-index: -1;
 }
-.final-trailer .trailer-bg .youtube-icon {
+.trailer-bg .youtube-icon {
   position: absolute;
   color: red;
   font-size: 50px;
   left: 50%;
   bottom: 50%;
 }
-.final-trailer .trailer-bg .top-list {
-  /* position: absolute;
-  top: 10px;
-  left: 10px; */
+.trailer-bg .top-list {
   color: #fff;
 }
-/* .final-trailer .trailer-bg .top-list li img {
-  border-radius: 50%;
-} */
-.final-trailer .trailer-bg .top-list .icon {
+
+.trailer-bg .top-list .icon {
   font-size: 22px;
 }
-.final-trailer .trailer-bg .top-list .text {
+.trailer-bg .top-list .text {
   font-size: 12px;
 }
-.final-trailer .trailer-bg .bottom-list {
+.trailer-bg .bottom-list {
   position: absolute;
   bottom: 20;
   color: #fff;
   left: 20;
 }
+
 /* //////////////latest-news/////////////// */
 .latest-news {
   background-color: #151515;
@@ -184,12 +146,12 @@
   transform: translateX(-50%);
 }
 /* //////////////overview/////////////// */
-.overview {
+.overview-background {
   width: 100%;
   height: 100vh;
   max-height: 400px;
 }
-.overview:before {
+.overview-background:before {
   content: "";
   position: absolute;
   top: 0;
@@ -201,7 +163,7 @@
   z-index: -1;
 }
 
-.overview:after {
+.overview-background:after {
   content: "";
   position: absolute;
   bottom: -30;
@@ -228,22 +190,22 @@
   background-size: fill;
   z-index: 3;
 }
-.overview-content {
+.overview-text-box .overview-content {
   background-color: #fff;
   margin-top: -80px;
   font-size: 16px;
   font-weight: 300;
 }
-.description li p {
+.overview-content .description li p {
   font-size: 16px;
 }
-.description ul li p:first-child {
+.overview-content .description ul li p:first-child {
   font-size: 12px;
   font-weight: 600;
   color: #767676;
   margin-bottom: 5px;
 }
-.description ul li p:last-child {
+.overview-content .description ul li p:last-child {
   font-size: 14px;
   font-weight: 400;
 }
@@ -317,4 +279,56 @@
 }
 .characters li:hover img {
   transform: scale(1.05);
+}
+/* //////// official-trailer ///////// */
+.official-trailer .trailer-bg:before {
+  background-image: url(../photos/movie-page/ot.jpeg);
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  z-index: -1;
+}
+/* //////////// posters ///////////// */
+.posters ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 10px;
+}
+.posters ul li img {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+}
+.posters ul li {
+  transition: all 0.2s;
+}
+.posters ul li:hover {
+  transform: scale(1.15);
+  box-shadow: 0 5px 15px 7px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 8;
+  background-color: #fff;
+}
+/* //////// teaser-trailer ///////// */
+.teaser-trailer .trailer-bg:before {
+  background-image: url(../photos/movie-page/tt.webp);
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  z-index: -1;
+}
+/* //////// related-movie ///////// */
+.related-movie ul {
+  border: 1px solid #d8d8d8;
+  box-shadow: 0 7px 17px -14px rgba(0, 0, 0, 0.8);
+}
+.related-movie ul li:last-child {
 }
