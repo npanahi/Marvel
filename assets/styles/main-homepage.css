@@ -127,8 +127,8 @@
   font-size: 18px;
   width: 100%;
   color: #767676;
-  right: 100px;
-  bottom: 20;
+  right: 0;
+  bottom: 25;
 }
 .social-media i {
   transition: color 0.4s;
