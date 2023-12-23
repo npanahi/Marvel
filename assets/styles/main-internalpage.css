@@ -12,7 +12,7 @@
   width: 100%;
   height: 100vh;
   max-height: 400px;
-  background-image: url(../photos/movie-page/bg.jpeg);
+  background-image: url(../photos/internal-page/bg.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
   height: 650px;
 }
 .final-trailer .trailer-bg:before {
-  background-image: url(../photos/movie-page/maxresdefault.webp);
+  background-image: url(../photos/internal-page/maxresdefault.webp);
   content: "";
   position: absolute;
   background-size: cover;
@@ -186,7 +186,7 @@
   height: 163px;
   transform: translate(-50%, -50%);
   position: absolute;
-  background-image: url(../photos/movie-page/themarvels_lob_log_div_02.png);
+  background-image: url(../photos/internal-page/themarvels_lob_log_div_02.png);
   background-size: fill;
   z-index: 3;
 }
@@ -282,7 +282,7 @@
 }
 /* //////// official-trailer ///////// */
 .official-trailer .trailer-bg:before {
-  background-image: url(../photos/movie-page/ot.jpeg);
+  background-image: url(../photos/internal-page/ot.jpeg);
   content: "";
   position: absolute;
   background-size: cover;
@@ -315,7 +315,7 @@
 }
 /* //////// teaser-trailer ///////// */
 .teaser-trailer .trailer-bg:before {
-  background-image: url(../photos/movie-page/tt.webp);
+  background-image: url(../photos/internal-page/tt.webp);
   content: "";
   position: absolute;
   background-size: cover;
