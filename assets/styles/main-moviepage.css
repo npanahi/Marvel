@@ -107,6 +107,7 @@
   column-gap: 10px;
   row-gap: 15px;
 }
+
 .marvel-movies ul li p {
   font-size: 14px;
   font-weight: 700;
@@ -118,6 +119,7 @@
 }
 .marvel-movies ul li .img-wrapper {
   transition: all 0.2s;
+  box-shadow: 0 7px 17px -8px rgba(0, 0, 0, 0.8);
 }
 .marvel-movies ul li .img-wrapper:hover {
   transform: translate3d(0, -2%, 0);
@@ -150,6 +152,7 @@
 }
 .other-movies ul li .img-wrapper {
   transition: all 0.2s;
+  box-shadow: 0 7px 17px -8px rgba(0, 0, 0, 0.8);
 }
 .other-movies ul li .img-wrapper:hover {
   transform: translate3d(0, -2%, 0);
