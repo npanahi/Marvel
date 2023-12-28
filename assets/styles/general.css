@@ -48,7 +48,7 @@ h1 {
 h1,
 h2,
 h3 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 h2,
 h3 {
@@ -104,6 +104,9 @@ img {
 }
 .c-g {
   color: #767676;
+}
+.ov {
+  overflow: hidden;
 }
 /*//////////////// border ////////////////// */
 
