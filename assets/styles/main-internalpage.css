@@ -241,7 +241,7 @@
   height: 160px;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 95% 100%, 0 100%);
   overflow: hidden;
-  border-top: 4px solid red;
+  border-top: 4px solid #e62429;
   z-index: 3;
   position: relative;
 }
