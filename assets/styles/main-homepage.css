@@ -137,8 +137,15 @@
   color: #151515;
 }
 
-/* /////////// marvel-unlimited ///////////// */
-
+/* /////////// advertisement ///////////// */
+.advertisement .banner {
+  width: 728px;
+  height: 90px;
+  margin: 50px auto;
+  color: #767676;
+  letter-spacing: 2;
+  font-size: 11px;
+}
 /* ///////////////latest-hype ///////////// */
 
 /* *********** */
