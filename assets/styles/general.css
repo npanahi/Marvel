@@ -8,10 +8,9 @@
   -ms-box-sizing: border-box;
 }
 body {
-  font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+  font: 400 16px/1.3 Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px;
   width: 100%;
-  line-height: 1.3;
   margin: 0;
   padding: 0;
   color: #202020;
@@ -108,6 +107,7 @@ img {
 .ov {
   overflow: hidden;
 }
+
 /*//////////////// border ////////////////// */
 
 .border {
@@ -382,8 +382,17 @@ img {
 .m-y-20 {
   margin: 20px 0;
 }
+.m-y-25 {
+  margin: 25px 0;
+}
+.m-y-30 {
+  margin: 30px 0;
+}
 .m-y-35 {
   margin: 35px 0;
+}
+.m-y-40 {
+  margin: 50px 0;
 }
 .m-y-50 {
   margin: 50px 0;
@@ -405,6 +414,9 @@ img {
 }
 .m-b-20 {
   margin-bottom: 20px;
+}
+.m-b-25 {
+  margin-bottom: 25px;
 }
 .m-b-30 {
   margin-bottom: 30px;
@@ -430,21 +442,19 @@ img {
   clip-path: polygon(0 20%, 10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%);
   text-transform: uppercase;
   text-align: center;
-  font-size: 12px;
   cursor: pointer;
   display: inline-block;
+  font: 600 14px/1 Roboto Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 .btn.btn-red {
   background-color: #e6252a;
-  padding: 10px 25px;
-  font-weight: 600;
+  padding: 16px 25px;
 }
 
 .btn.btn-black {
   position: relative;
   background-color: #fff;
   padding: 15px 30px;
-  font-weight: 600;
   z-index: 1;
   transition: background-color 0.2s;
 }
@@ -505,9 +515,10 @@ img {
 }
 
 /* //////////// eyebrow //////////// */
+
 .skew-brow {
-  font: 800 26px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
-  letter-spacing: 1;
+  font: 500 18px/19px RobotoCondensed Bold;
+  letter-spacing: 4;
   position: relative;
   z-index: 3;
 }
@@ -518,7 +529,7 @@ img {
   height: 2px;
   position: absolute;
   transform: rotate(-45deg) skewX(45deg);
-  width: 30px;
+  width: 20px;
   left: 53px;
   top: -8px;
   transform-origin: left bottom;
@@ -530,7 +541,7 @@ img {
   height: 2px;
   position: absolute;
   transform: rotate(-45deg) skewX(45deg);
-  width: 30px;
+  width: 20px;
   left: -6px;
   bottom: -8px;
   transform-origin: right top;
@@ -576,7 +587,7 @@ img {
   top: 45%;
   left: 28%;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   transform: translate(-50%, -50%);
 }
 
@@ -586,9 +597,8 @@ img {
 }
 
 .bg-text-box .titr {
-  font-size: 34px;
-  font-weight: 400;
   letter-spacing: 0.2;
+  font: 800 40px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 .dark {
   content: "";
@@ -605,7 +615,7 @@ img {
   padding: 20px;
   background-color: #fff;
   margin-top: -55;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
 }
 .movie-list ul li:hover .text-wrapper p {
@@ -650,4 +660,8 @@ img {
   color: #767676;
   letter-spacing: 2;
   font-size: 11px;
+}
+.open-title {
+  letter-spacing: 1;
+  font: 800 26px/1 RobotoCondensed, Trebuchet MS, Helvetica, Arial, sans-serif;
 }

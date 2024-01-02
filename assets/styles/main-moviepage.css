@@ -12,6 +12,7 @@
 .hero-section .dark {
   height: 400px;
   max-height: 500px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .hero-section:after {
   content: "";
@@ -30,9 +31,11 @@
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
+  font-weight: 300;
 }
 .hero-content h1 {
-  font-size: 50px;
+  font-size: 44px;
+  font-weight: 500;
 }
 
 /*///////////// stream ///////////// */
